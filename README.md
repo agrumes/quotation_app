@@ -1,5 +1,16 @@
 # テーブル設計
 
+## usersテーブル
+
+| Column                | Type      | Options                        |
+| --------------------- | --------- | ------------------------------ |
+| name                  | string    | null: false                    |
+| email                 | string    | null: false, unique: true      |
+| encrypted_password    | string    | null: false                    |
+
+### Association
+- has_many :quotations
+
 ## customersテーブル
 | Column                | Type      | Options                        |
 | --------------------- | --------- | ------------------------------ |
@@ -45,10 +56,12 @@
 | submitted             | integer    | null: false                    |
 | remark                | string     |                                |
 | user                  | references | null: false, foreign_key: true |
+| customer              | references | null: false, foreign_key: true |
 | place                 | references | null: false, foreign_key: true |
 
 ### Association
 - belongs_to :user
+- belongs_to :customer
 - belongs_to :place
 - has_many :quotation_details
 
