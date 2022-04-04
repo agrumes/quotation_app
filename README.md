@@ -1,24 +1,65 @@
-# README
+# テーブル設計
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## customersテーブル
+| Column                | Type      | Options                        |
+| --------------------- | --------- | ------------------------------ |
+| name                  | string    | null: false                    |
+| postal_code           | string    | null: false                    |
+| prefecture_id         | integer   | null: false                    |
+| city                  | string    | null: false                    |
+| block                 | string    | null: false                    |
+| city                  | string    | null: false                    |
+| building              | string    |                                |
+| phone_number          | string    | null: false                    |
+| payment_condition     | string    | null: false                    |
+| due_date              | string    | null: false                    |
 
-Things you may want to cover:
+### Association
+- has_many :quotations
 
-* Ruby version
 
-* System dependencies
+## placesテーブル
+| Column                | Type       | Options                        | 
+| --------------------- | ---------- | ------------------------------ | 
+| name                  | string     | null: false                    | 
+| postal_code           | string     | null: false                    |
+| prefecture_id         | integer    | null: false                    |
+| city                  | string     | null: false                    |
+| block                 | string     | null: false                    |
+| city                  | string     | null: false                    |
+| building              | string     |                                |
 
-* Configuration
+### Association
+- has_many :quotations
 
-* Database creation
 
-* Database initialization
+## quotationsテーブル
+| Column                | Type       | Options                        |
+| --------------------- | ---------- | ------------------------------ |
+| attention             | string     | null: false                    |
+| title                 | string     | null: false                    |
+| created_date          | date       | null: false                    |
+| updated_date          | date       | null: false                    |
+| expiry                | string     | null: false                    |
+| tax_late              | decimal    | null: false                    |
+| submitted             | integer    | null: false                    |
+| remark                | string     |                                |
+| user                  | references | null: false, foreign_key: true |
+| place                 | references | null: false, foreign_key: true |
 
-* How to run the test suite
+### Association
+- belongs_to :user
+- belongs_to :place
+- has_many :quotation_details
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## quotation_detailsテーブル
+| Column                | Type       | Options                        |
+| --------------------- | ---------- | ------------------------------ |
+| item_name             | string     | null: false                    |
+| quantity              | integer    | null: false                    |
+| unit_price            | integer    | null: false                    |
+| quotation             | references | null: false, foreign_key: true |
 
-* ...
+### Association
+- belongs_to :quotation
