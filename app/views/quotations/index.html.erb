@@ -1,2 +1,17 @@
-<h1>Quotations#index</h1>
-<p>Find me in app/views/quotations/index.html.erb</p>
+<%# CSS・・・assets/stylesheets/index.css %>
+
+<div class="wrapper">
+  <div class="main-search">
+    <%= render "main_search" %>
+  </div>
+</div>
+
+<ul class='quotation-column'>
+<li class='column-id'>見積No</li>
+<li class='column-filing-date'>提出日</li>
+<li class='column-title'>タイトル</li>
+<li class='column-place'>現場名</li>
+<li class='column-customer'>得意先名</li>
+<li class='column-price'>税別金額</li>
+<li class='column-author'>作成者</li>
+</ul>
