@@ -1,0 +1,45 @@
+<div class='place-register-top'>
+  <div class='place-heading'>
+  現場登録
+  </div>
+
+  <div class='place-column-box'>
+    <div class='place-column'>
+      現場名
+    <%# f.text_area :name, class:"input-place-name", id:"name", placeholder:"place-name", maxlength:"40" %>
+    <input class='input-place-name' placeholder='place-name' >
+    </div>
+  </div>
+  <div class='place-column-box'>
+    <div class='place-column'>
+      郵便番号
+      <%# f.text_field :postal_code, class:"input-place-postal-code", id:"postal-code", placeholder:"例）123-4567", maxlength:"8" %>
+      <input class='input-place-postal-code' placeholder='place-postal-code'>
+    </div>
+    <div class='place-column'>
+      都道府県
+      <%# f.collection_select(:prefecture_id, Prefecture.all, :id, :name, {}, {class:"select-box", id:"prefecture"}) %>
+      <input class='input-place-prefecture' placeholder='place-prefecture'>
+    </div>
+      <div class='place-column'>
+      市区町村
+      <%# f.text_field :city, class:"input-place-city", id:"city", placeholder:"例）さいたま市大宮区"%>
+      <input class='input-place-city' placeholder='place-city'>
+    </div>
+  </div>
+    <div class='place-column-box'>
+      <div class='place-column'>
+      番 地
+      <%# f.text_field :block, class:"input-place-block", id:"addresses", placeholder:"例）中央1-1-1"%>
+      <input class='input-place-block' placeholder='place-block'>
+      </div>
+      <div class='place-column'>
+      建物名
+      <%# f.text_field :building, class:"input-place-building", id:"building", placeholder:"例）柳ビル103"%>
+      <input class='input-place-building' placeholder='place-building'>
+      </div>
+    </div>
+  <div class='place-create-btn'>
+    <%= link_to '新規登録', "#", class: "create-edit-btn"  %>
+    </div>
+</div>

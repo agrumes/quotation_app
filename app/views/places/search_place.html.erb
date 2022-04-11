@@ -1,0 +1,27 @@
+<%# 検索結果 %>
+
+<div class='search-result'>
+  <div class='search-place'>
+  現場名検索結果
+  </div>
+  <table class='search-place-header'>
+    <tbody>
+      <tr>
+        <th class='search-place-no'>No.</th>
+        <th class='search-place-name'>現場名</th>
+        <th class='search-prefecture'>都道府県</th>
+        <th class='search-city'>市区町村</th>
+        <th class='search-block'>番地</th>
+        <th class='search-building'>ビル名</th>
+      </tr>
+      <tr>
+        <td class="search-place-no-result"><%# @item.category[:name] %></td>
+        <td class="search-place-name-result"><%# @item.category[:name] %></td>
+        <td class="search-prefecture-result"><%# @item.category[:name] %></td>
+        <td class="search-city-result"><%# @item.category[:name] %></td>
+        <td class="search-block-result"><%# @item.category[:name] %></td>
+        <td class="search-building-result"><%# @item.category[:name] %></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
