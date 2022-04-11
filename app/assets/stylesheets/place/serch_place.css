@@ -1,0 +1,128 @@
+.search-result {
+}
+
+.search-place {
+  text-align: center;
+  font-size: 30px;
+  padding: 30px 30px;
+  margin-bottom: 30px;
+}
+
+.search-place-header {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+ } 
+ 
+ .search-place-no{
+  width: 3vw;
+  height: 5vh;
+  background-color: darkcyan;
+  border: solid 1px darkgray;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+ }
+ 
+ .search-place-name {
+   width: 20vw;
+   height: 5vh;
+   background-color: darkcyan;
+   border: solid 1px darkgray;
+   color: #FFF;
+   font-weight: bold;
+   text-align: center;
+ }
+ 
+
+ .search-prefecture{
+   width: 7vw;
+   height: 5vh;
+   background-color: darkcyan;
+   border: solid 1px darkgray;
+   color: #FFF;
+   font-weight: bold;
+   text-align: center;
+ }
+ 
+ .search-city {
+   width: 15vw;
+   height: 5vh;
+   background-color: darkcyan;
+   border: solid 1px darkgray;
+   color: #FFF;
+   font-weight: bold;
+   text-align: center;
+ 
+ }
+ .search-block {
+   width: 15vw;
+   height: 5vh;
+   background-color: darkcyan;
+   border: solid 1px darkgray;
+   color: #FFF;
+   font-weight: bold;
+   text-align: center;
+ }
+ 
+ .search-building{
+   width: 15vw;
+   height: 5vh;
+   background-color: darkcyan;
+   border: solid 1px darkgray;
+   color: #FFF;
+   font-weight: bold;
+   text-align: center;
+ }
+ 
+.search-place-no-result {
+  width: 3vw;
+  height: 5vh;
+  border: solid 1px darkgray;
+  color: #FFF;
+  text-align: center;
+}
+
+ .search-place-name-result {
+   width: 20vw;
+   height: 5vh;
+   border: solid 1px darkgray;
+   color: #FFF;
+   text-align: center;
+ }
+ 
+ .search-prefecture-result {
+   width: 7vw;
+   height: 5vh;
+   border: solid 1px darkgray;
+   color: #FFF;
+   text-align: center;
+ }
+
+ .search-city-result {
+   width: 15vw;
+   height: 5vh;
+   border: solid 1px darkgray;
+   color: #FFF;
+   text-align: center;
+ }
+ 
+ .search-block-result {
+   width: 15vw;
+   height: 5vh;
+   border: solid 1px darkgray;
+   color: #FFF;
+   text-align: center;
+ 
+ }
+ .search-building-result {
+   width: 15vw;
+   height: 5vh;
+   border: solid 1px darkgray;
+   color: #FFF;
+   text-align: center;
+ }

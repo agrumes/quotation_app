@@ -1,0 +1,103 @@
+<div class='quotation-create'>
+  <div class='quotation-heading'>
+  見積書作成Form
+  </div>
+  <div class='quotation-regist-main'>
+    <div class='quotation-customer-place-box'>
+      <div class='quotation-customer'>
+      得意先名
+      </div>
+      <form class="select-form" action="#">
+        <input class='select-box' placeholder='得意先を選択'>
+        <button class="select-button">
+          <%= image_tag "search.png", class:"search-icon" %>
+        </button>
+      </form>
+      <div class='quotation-place'>
+      現場名
+      </div>
+      <form class="select-form" action="#">
+        <input class='select-box' placeholder='現場を選択'>
+        <button class="select-button">
+          <%= image_tag "search.png", class:"search-icon" %>
+        </button>
+      </form>
+    </div>
+    <div class='quotation-attention-box'>
+      <div class='quotation-attention'>
+      見積書宛名
+      </div>
+      <form class="select-form" action="#">
+        <input class='input-attention-box' placeholder='送付先担当者を入力'>
+      </form>
+    </div>
+    <div class='quotation-title-genre-box'>
+      <div class='quotation-title'>
+      見積title
+      </div>
+      <form class="select-form" action="#">
+        <input class='input-title-box' placeholder='titleを入力'>
+      </form>
+      <div class='quotation-genre'>
+      見積分類
+      </div>
+      <form class="select-form" action="#">
+        <input class='input-genre-box'>
+      </form>
+      <div class='quotation-expiry'>
+      有効期限
+      </div>
+      <form class="select-form" action="#">
+        <input class='input-expiry-box'>
+      </form>
+    </div>
+    <div class='quotation-price-box'>
+      <div class='quotation-cal-price'>
+      税別金額
+      </div>
+      <form class="select-form" action="#">
+        <input class='cal-price'>
+      </form>
+      <div class='quotation-tax-rate'>
+      消費税率
+      </div>
+      <form class="select-form" action="#">
+        <input class='select-tax-rate'>
+      </form>
+      <div class='quotation-post-tax-price'>
+      税込金額
+      </div>
+      <form class="select-form" action="#">
+        <input class='cal-post-tax-price'>
+      </form>
+    </div>
+    <div class='quotation-remark-box'>
+      <div class='quotation-remark'>
+      特記事項
+      </div>
+      <form class="select-form" action="#">
+        <input class='input-remark-box' placeholder='特記事項を入力'>
+      </form>
+    </div>
+  </div>
+  <div class='quotation-column-detail'>
+    <table class="aa">
+    <tbody>
+      <tr>
+        <th class='column-item-name'>項目名</th>
+        <th class='column-quantity'>数量</th>
+        <th class='column-item-unit'>単位</th>
+        <th class='column-item-unit_price'>単価</th>
+        <th class='column-item-subtotal'>小計</th>
+      </tr>
+      <tr>
+        <td> <input type="text" class='input-item-name'></td>
+        <td> <input type="text" class='input-quantity'></td>
+        <td> <input type="text" class='input-item-unit'></td>
+        <td> <input type="text" class='input-item-unit_price'></td>
+        <th class='calc-item-subtotal'></th>
+      </tr>
+    </tbody>
+    </table>
+  </div>
+</div>

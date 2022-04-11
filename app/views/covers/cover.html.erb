@@ -1,0 +1,218 @@
+<%# 見積書_表紙%>
+<div class='quotation-cover'>
+  <div class='cover-top'>
+    <div class='cover-top-name'>
+      御見積書
+    </div>
+    <div class='cover-top-right'>
+      <div class='quotation-id'>
+        ID:
+      </div>
+      <div class='quotation-filing-date'>
+        西暦
+      </div>
+    </div>
+  </div>
+
+  <div class='cover-center'>
+    <div class='cover-center-costomer'>
+      <div class='cover-customer-name'>
+      株式会社アバランチ
+      </div>
+      <div class='customer-messrs'>
+        御中
+      </div>
+    </div>
+    <div class='cover-center-price'>
+      <div class='kingaku'>
+      金額
+      </div>
+      <div class='cover-center-subtotal'>
+      100,000,000円
+      </div>
+    </div>
+    <div class='cover-legal-benefits'>
+      (法定福利費を含む)
+    </div>
+    <div class='cover-inportant'>
+      内容は添付見積内訳書をご覧ください。<br>
+      なお、合計金額に消費税は含んでおりません。
+    </div>
+  </div>
+  <div class='cover-bottom'>
+    <div class='cover-bottom-detail'>
+      <table class='quotation-column-table'>
+        <tbody>
+          <tr>
+            <th class='cover-column'>工事名</th>
+            <td class="cover-value"><%# @item.category[:name] %></td>
+          </tr>
+          <tr>
+            <th class='cover-column'>工事場所</th>
+            <td class="cover-value"><%# @item.category[:name] %></td>
+          </tr>
+          <tr>
+            <th class='cover-column'>見積有効期限</th>
+            <td class="cover-value"><%# @item.category[:name] %></td>
+          </tr>
+          <tr>
+            <th class='cover-column'>工期又は納期</th>
+            <td class="cover-value"><%# @item.category[:name] %></td>
+          </tr>
+          <tr>
+            <th class='cover-column'>受渡場所</th>
+            <td class="cover-value"><%# @item.category[:name] %></td>
+          </tr>
+          <tr>
+            <th class='cover-column'>お取引方法</th>
+            <td class="cover-value"><%# @item.category[:name] %></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class='cover-my-company'>
+     神羅電気動力株式会社<br>
+     ミッドガル零番街神羅ビル内
+    </div>
+  </div>
+</div>
+
+<%# 見積書_内訳書%>
+<div class='quotation-cover'>
+  <div class='cover-detail-top'>
+      内訳書
+  </div>
+  <div class='cover-detail'>
+      <table class='quotation-datail-table'>
+        <tbody>
+          <tr>
+            <th class='cover-head-item-no'>No.</th>
+            <th class='cover-head-item-name'>項目名</th>           
+            <th class='cover-head-quantity'>数量</th>            
+            <th class='cover-head-item-unit'>単位</th>            
+            <th class='cover-head-item-unit_price'>単価</th>            
+            <th class='cover-head-item-subtotal'>金額</th>
+            <th class='cover-head-item-remarks'>備考</th>
+          </tr>
+          <tr>
+            <td class="cover-item-no"><%# @item.category[:name] %></td>
+            <td class="cover-item-name"><%# @item.category[:name] %></td>
+            <td class="cover-quantity"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit_price"><%# @item.category[:name] %></td>
+            <td class="cover-item-subtotal"><%# @item.category[:name] %></td>
+            <td class="cover-item-remarks"><%# @item.category[:name] %></td>
+          </tr>
+          <tr>
+            <td class="cover-item-no"><%# @item.category[:name] %></td>
+            <td class="cover-item-name"><%# @item.category[:name] %></td>
+            <td class="cover-quantity"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit_price"><%# @item.category[:name] %></td>
+            <td class="cover-item-subtotal"><%# @item.category[:name] %></td>
+            <td class="cover-item-remarks"><%# @item.category[:name] %></td>
+          </tr>
+          <tr>
+            <td class="cover-item-no"><%# @item.category[:name] %></td>
+            <td class="cover-item-name"><%# @item.category[:name] %></td>
+            <td class="cover-quantity"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit_price"><%# @item.category[:name] %></td>
+            <td class="cover-item-subtotal"><%# @item.category[:name] %></td>
+            <td class="cover-item-remarks"><%# @item.category[:name] %></td>
+          </tr>
+          <tr>
+            <td class="cover-item-no"><%# @item.category[:name] %></td>
+            <td class="cover-item-name"><%# @item.category[:name] %></td>
+            <td class="cover-quantity"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit_price"><%# @item.category[:name] %></td>
+            <td class="cover-item-subtotal"><%# @item.category[:name] %></td>
+            <td class="cover-item-remarks"><%# @item.category[:name] %></td>
+          </tr>
+          <tr>
+            <td class="cover-item-no"><%# @item.category[:name] %></td>
+            <td class="cover-item-name"><%# @item.category[:name] %></td>
+            <td class="cover-quantity"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit_price"><%# @item.category[:name] %></td>
+            <td class="cover-item-subtotal"><%# @item.category[:name] %></td>
+            <td class="cover-item-remarks"><%# @item.category[:name] %></td>
+          </tr>
+          <tr>
+            <td class="cover-item-no"><%# @item.category[:name] %></td>
+            <td class="cover-item-name"><%# @item.category[:name] %></td>
+            <td class="cover-quantity"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit_price"><%# @item.category[:name] %></td>
+            <td class="cover-item-subtotal"><%# @item.category[:name] %></td>
+            <td class="cover-item-remarks"><%# @item.category[:name] %></td>
+          </tr>
+          <tr>
+            <td class="cover-item-no"><%# @item.category[:name] %></td>
+            <td class="cover-item-name"><%# @item.category[:name] %></td>
+            <td class="cover-quantity"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit_price"><%# @item.category[:name] %></td>
+            <td class="cover-item-subtotal"><%# @item.category[:name] %></td>
+            <td class="cover-item-remarks"><%# @item.category[:name] %></td>
+          </tr>
+          <tr>
+            <td class="cover-item-no"><%# @item.category[:name] %></td>
+            <td class="cover-item-name"><%# @item.category[:name] %></td>
+            <td class="cover-quantity"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit_price"><%# @item.category[:name] %></td>
+            <td class="cover-item-subtotal"><%# @item.category[:name] %></td>
+            <td class="cover-item-remarks"><%# @item.category[:name] %></td>
+          </tr>
+          <tr>
+            <td class="cover-item-no"><%# @item.category[:name] %></td>
+            <td class="cover-item-name"><%# @item.category[:name] %></td>
+            <td class="cover-quantity"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit_price"><%# @item.category[:name] %></td>
+            <td class="cover-item-subtotal"><%# @item.category[:name] %></td>
+            <td class="cover-item-remarks"><%# @item.category[:name] %></td>
+          </tr>
+          <tr>
+            <td class="cover-item-no"><%# @item.category[:name] %></td>
+            <td class="cover-item-name"><%# @item.category[:name] %></td>
+            <td class="cover-quantity"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit_price"><%# @item.category[:name] %></td>
+            <td class="cover-item-subtotal"><%# @item.category[:name] %></td>
+            <td class="cover-item-remarks"><%# @item.category[:name] %></td>
+          </tr>
+          <tr>
+            <td class="cover-item-no"><%# @item.category[:name] %></td>
+            <td class="cover-item-name"><%# @item.category[:name] %></td>
+            <td class="cover-quantity"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit_price"><%# @item.category[:name] %></td>
+            <td class="cover-item-subtotal"><%# @item.category[:name] %></td>
+            <td class="cover-item-remarks"><%# @item.category[:name] %></td>
+          </tr>
+          <tr>
+            <td class="cover-item-no"><%# @item.category[:name] %></td>
+            <td class="cover-item-name"><%# @item.category[:name] %></td>
+            <td class="cover-quantity"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit_price"><%# @item.category[:name] %></td>
+            <td class="cover-item-subtotal"><%# @item.category[:name] %></td>
+            <td class="cover-item-remarks"><%# @item.category[:name] %></td>
+          </tr>
+          <tr>
+            <td class="cover-item-no"><%# @item.category[:name] %></td>
+            <td class="cover-item-name"><%# @item.category[:name] %></td>
+            <td class="cover-quantity"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit"><%# @item.category[:name] %></td>
+            <td class="cover-item-unit_price"><%# @item.category[:name] %></td>
+            <td class="cover-item-subtotal"><%# @item.category[:name] %></td>
+            <td class="cover-item-remarks"><%# @item.category[:name] %></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,64 @@
+<div class='customer-register-top'>
+  <div class='customer-heading'>
+  得意先登録
+  </div>
+
+  <div class='customer-column-box'>
+    <div class='customer-column'>
+      得意先名
+    <%# f.text_area :name, class:"input-customer-name", id:"name", placeholder:"customer-name", maxlength:"40" %>
+    <input class='input-customer-name' placeholder='customer-name' >
+    </div>
+  </div>
+  <div class='customer-column-box'>
+    <div class='customer-column'>
+      郵便番号
+      <%# f.text_field :postal_code, class:"input-customer-postal-code", id:"postal-code", placeholder:"例）123-4567", maxlength:"8" %>
+      <input class='input-customer-postal-code' placeholder='customer-postal-code'>
+    </div>
+    <div class='customer-column'>
+      都道府県
+      <%# f.collection_select(:prefecture_id, Prefecture.all, :id, :name, {}, {class:"select-box", id:"prefecture"}) %>
+      <input class='input-customer-prefecture' placeholder='customer-prefecture'>
+    </div>
+      <div class='customer-column'>
+      市区町村
+      <%# f.text_field :city, class:"input-customer-city", id:"city", placeholder:"例）さいたま市大宮区"%>
+      <input class='input-customer-city' placeholder='customer-city'>
+    </div>
+  </div>
+    <div class='customer-column-box'>
+      <div class='customer-column'>
+      番 地
+      <%# f.text_field :block, class:"input-customer-block", id:"addresses", placeholder:"例）中央1-1-1"%>
+      <input class='input-customer-block' placeholder='customer-block'>
+      </div>
+      <div class='customer-column'>
+      建物名
+      <%# f.text_field :building, class:"input-customer-building", id:"building", placeholder:"例）柳ビル103"%>
+      <input class='input-customer-building' placeholder='customer-building'>
+      </div>
+    </div>
+    <div class='customer-column-box'>
+      <div class='customer-column'>
+      電話番号
+      <%# f.text_field :phone_number, class:"input-customer-phone-number", id:"phone-number", placeholder:"例）09012345678",maxlength:"11"%>
+      <input class='input-customer-phone-number' placeholder='customer-phone-number'>
+      </div>
+    </div>
+  <div class='customer-column-box'>
+    <div class='customer-column'>
+      支払方法
+    <%# f.text_field :payment-conditio, class:"input-payment-conditio", id:"payment-conditio", {}, {class:"select-box", id:"prefecture"}) ）%>
+      <input class='input-payment-condition' placeholder='payment-condition'>
+    </div>
+    <div class='customer-column'>
+      支払期日
+    <%# f.text_field :payment-conditio, class:"input-payment-conditio", id:"payment-conditio", {}, {class:"select-box", id:"prefecture"}) ）%>
+      <input class='input-due-date' placeholder='due-date'>
+    </div>
+  </div>
+  <div class='customer-create-btn'>
+    <%= link_to '新規登録', "#", class: "create-edit-btn"  %>
+    </div>
+</div>
