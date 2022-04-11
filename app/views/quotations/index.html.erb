@@ -1,4 +1,4 @@
-<%# CSS・・・assets/stylesheets/index.css %>
+<%# CSS・・・assets/stylesheets/quotations/index.css %>
 
 <div class="wrapper">
   <div class="main-search">
@@ -6,12 +6,26 @@
   </div>
 </div>
 
-<ul class='quotation-column'>
-<li class='column-id'>見積No</li>
-<li class='column-filing-date'>提出日</li>
-<li class='column-title'>タイトル</li>
-<li class='column-place'>現場名</li>
-<li class='column-customer'>得意先名</li>
-<li class='column-price'>税別金額</li>
-<li class='column-author'>作成者</li>
-</ul>
+<table class='quotation-column-header'>
+  <tbody>
+    <tr>
+      <th class='column-id'>見積No</th>
+      <th class='column-filing-date'>提出日</th>
+      <th class='column-title'>タイトル</th>
+      <th class='column-place'>現場名</th>
+      <th class='column-customer'>得意先名</th>
+      <th class='column-price'>税別金額</th>
+      <th class='column-author'>作成者</th>
+    </tr>
+    <tr>
+      <td class="column-id-result"><%# @item.category[:name] %></td>
+      <td class="column-filing-date-result"><%# @item.category[:name] %></td>
+      <td class="column-title-result"><%# @item.category[:name] %></td>
+      <td class="column-place-result"><%# @item.category[:name] %></td>
+      <td class="column-customer-result"><%# @item.category[:name] %></td>
+      <td class="column-price-result"><%# @item.category[:name] %></td>
+      <td class="column-author-result"><%# @item.category[:name] %></td>
+    </tr>
+  </tbody>
+</table>
+

@@ -68,13 +68,15 @@
   width: 7vw;
   height: 5vh;
   text-decoration: none;
-  text-align: center;
   background-color: turquoise;
   font-size: 20px;
   font-weight: bold;
   color: #FFF;
   margin: 15px 15px;
-  padding: 7px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .search-top {
@@ -98,6 +100,7 @@
   width: 100%;
   height: 5vh;
   padding-left: 10px;
+  border-radius: 5px;
 }
 
 .search-button {
@@ -106,20 +109,20 @@
   cursor: pointer;
   background-color: #3ccace;
   padding: 8px;
+  border-radius: 5px;
 }
 
 .search-icon {
   width: 100%;
 }
 
-.quotation-column {
+.quotation-column-header {
  display: flex;
  width: 100vw;
  padding: 10px 30px;
  text-decoration: none;
  text-align: center;
  font-size: 18px;
- font-weight: bold;
 } 
 
 
@@ -129,7 +132,8 @@
   background-color: darkcyan;
   border: solid 1px darkgray;
   color: #FFF;
-  padding: 5px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .column-filing-date {
@@ -138,7 +142,8 @@
   background-color: darkcyan;
   border: solid 1px darkgray;
   color: #FFF;
-  padding: 5px;
+  font-weight: bold;
+  text-align: center;
 }
 .column-title{
   width: 28vw;
@@ -146,7 +151,8 @@
   background-color: darkcyan;
   border: solid 1px darkgray;
   color: #FFF;
-  padding: 5px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .column-place{
@@ -155,7 +161,8 @@
   background-color: darkcyan;
   border: solid 1px darkgray;
   color: #FFF;
-  padding: 5px;
+  font-weight: bold;
+  text-align: center;
 
 }
 .column-customer{
@@ -164,8 +171,8 @@
   background-color: darkcyan;
   border: solid 1px darkgray;
   color: #FFF;
-  padding: 5px;
-
+  font-weight: bold;
+  text-align: center;
 }
 
 .column-price{
@@ -174,8 +181,8 @@
   background-color: darkcyan;
   border: solid 1px darkgray;
   color: #FFF;
-  padding: 5px;
-
+  font-weight: bold;
+  text-align: center;
 }
 
 .column-author{
@@ -184,6 +191,65 @@
   background-color: darkcyan;
   border: solid 1px darkgray;
   color: #FFF;
-  padding: 5px;
+  font-weight: bold;
+  text-align: center;
 }
+
+.column-id-result {
+  width: 8vw;
+  height: 5vh;
+  border: solid 1px darkgray;
+  color: #FFF;
+  text-align: center;
+}
+
+.column-filing-date-result {
+  width: 10vw;
+  height: 5vh;
+  border: solid 1px darkgray;
+  color: #FFF;
+  text-align: center;
+}
+.column-title-result {
+  width: 28vw;
+  height: 5vh;
+  border: solid 1px darkgray;
+  color: #FFF;
+  text-align: center;
+}
+
+.column-place-result {
+  width: 15vw;
+  height: 5vh;
+  border: solid 1px darkgray;
+  color: #FFF;
+  text-align: center;
+
+}
+.column-customer-result {
+  width: 15vw;
+  height: 5vh;
+  border: solid 1px darkgray;
+  color: #FFF;
+  text-align: center;
+}
+
+.column-price-result {
+  width: 10vw;
+  height: 5vh;
+  border: solid 1px darkgray;
+  color: #FFF;
+  text-align: center;
+}
+
+.column-author-result {
+  width: 10vw;
+  height: 5vh;
+  border: solid 1px darkgray;
+  color: #FFF;
+  text-align: center;
+}
+
+
+
 
