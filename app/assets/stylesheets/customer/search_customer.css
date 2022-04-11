@@ -1,0 +1,165 @@
+.search-result {
+}
+
+.search-customer {
+  text-align: center;
+  font-size: 30px;
+  padding: 30px 30px;
+  margin-bottom: 30px;
+}
+
+.search-customer-header {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+ } 
+ 
+ .search-customer-no{
+  width: 3vw;
+  height: 5vh;
+  background-color: darkcyan;
+  border: solid 1px darkgray;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+ }
+ 
+ .search-customer-name {
+   width: 20vw;
+   height: 5vh;
+   background-color: darkcyan;
+   border: solid 1px darkgray;
+   color: #FFF;
+   font-weight: bold;
+   text-align: center;
+ }
+ 
+
+ .search-prefecture{
+   width: 7vw;
+   height: 5vh;
+   background-color: darkcyan;
+   border: solid 1px darkgray;
+   color: #FFF;
+   font-weight: bold;
+   text-align: center;
+ }
+ 
+ .search-city {
+   width: 15vw;
+   height: 5vh;
+   background-color: darkcyan;
+   border: solid 1px darkgray;
+   color: #FFF;
+   font-weight: bold;
+   text-align: center;
+ 
+ }
+ .search-block {
+   width: 15vw;
+   height: 5vh;
+   background-color: darkcyan;
+   border: solid 1px darkgray;
+   color: #FFF;
+   font-weight: bold;
+   text-align: center;
+ }
+ 
+ .search-building{
+   width: 15vw;
+   height: 5vh;
+   background-color: darkcyan;
+   border: solid 1px darkgray;
+   color: #FFF;
+   font-weight: bold;
+   text-align: center;
+ }
+
+ .search-payment-condition {
+  width: 10vw;
+  height: 5vh;
+  background-color: darkcyan;
+  border: solid 1px darkgray;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+}
+
+.search-due-date {
+  width: 10vw;
+  height: 5vh;
+  background-color: darkcyan;
+  border: solid 1px darkgray;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+ 
+.search-customer-no-result {
+  width: 3vw;
+  height: 5vh;
+  border: solid 1px darkgray;
+  color: #FFF;
+  text-align: center;
+}
+
+ .search-customer-name-result {
+   width: 20vw;
+   height: 5vh;
+   border: solid 1px darkgray;
+   color: #FFF;
+   text-align: center;
+ }
+ 
+ .search-prefecture-result {
+   width: 7vw;
+   height: 5vh;
+   border: solid 1px darkgray;
+   color: #FFF;
+   text-align: center;
+ }
+
+ .search-city-result {
+   width: 15vw;
+   height: 5vh;
+   border: solid 1px darkgray;
+   color: #FFF;
+   text-align: center;
+ }
+ 
+ .search-block-result {
+   width: 15vw;
+   height: 5vh;
+   border: solid 1px darkgray;
+   color: #FFF;
+   text-align: center;
+ 
+ }
+ .search-building-result {
+   width: 15vw;
+   height: 5vh;
+   border: solid 1px darkgray;
+   color: #FFF;
+   text-align: center;
+ }
+ .search-payment-condition-result {
+  width: 10vw;
+  height: 5vh;
+  border: solid 1px darkgray;
+  color: #FFF;
+  text-align: center;
+
+}
+.search-due-date-result {
+  width: 10vw;
+  height: 5vh;
+  border: solid 1px darkgray;
+  color: #FFF;
+  text-align: center;
+}
