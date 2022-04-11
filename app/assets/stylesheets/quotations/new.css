@@ -1,0 +1,309 @@
+/* 見積書作成form用 */
+
+.quotation-create {
+}
+
+.quotation-heading {
+  display: flex;
+  padding: 2vh 10vw;
+  font-weight: bold;
+  font-size: 30px;
+  height: 10vh;
+  width: 80vw;
+}
+
+.quotation-regist-main {
+  height: 50vh;
+  width: 80vw;
+  padding: 2vh 2vw;
+  margin: 60px auto;
+  background-color: #fff;
+  border: 3px solid #ddd;
+  border-radius: 5px;
+}
+
+.quotation-customer-place-box {
+  display: flex;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.quotation-customer {
+  display: flex;
+  align-items: center;
+  margin-right: 21px;
+}
+
+.quotation-place {
+  display: flex;
+  align-items: center;
+  margin:0 20px 0 30px;
+}
+
+.select-form {
+  width: 30vw;
+  height: 5vh;
+  display: flex;
+  margin: 0 0 5px 10px;
+}
+
+.select-form>.select-box {
+  width: 100%;
+  height: 5vh;
+  padding-left: 10px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.select-button {
+  width: 5vh;
+  border: 0;
+  cursor: pointer;
+  background-color: #3ccace;
+  padding: 8px;
+  margin-right: 50px;
+  border-radius: 5px;
+}
+
+.quotation-attention-box {
+  display: flex;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.quotation-attention {
+  display: flex;
+  align-items: center;
+  margin-right: 21px;
+}
+
+.select-form>.input-attention-box {
+  width: 50%;
+  height: 5vh;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.quotation-title-genre-box {
+  display: flex;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.quotation-title {
+  display: flex;
+  align-items: center;
+  margin-right: 21px;
+  white-space: nowrap;
+}
+
+.select-form>.input-title-box {
+  width: 100%;
+  height: 5vh;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin-left: 21px;
+}
+
+.quotation-genre {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  white-space: nowrap;
+}
+
+.select-form>.input-genre-box {
+  width: 70%;
+  height: 5vh;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin-left: 21px;
+}
+
+.quotation-expiry {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  white-space: nowrap;
+  
+}
+
+.select-form>.input-expiry-box {
+  width: 60%;
+  height: 5vh;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin-left: 21px;
+}
+
+.quotation-price-box {
+  display: flex;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.quotation-cal-price {
+  display: flex;
+  align-items: center;
+  margin-right: 21px;
+  white-space: nowrap;
+}
+
+.select-form>.cal-price {
+  width: 100%;
+  height: 5vh;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin-left: 21px;
+}
+
+.quotation-tax-rate {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  white-space: nowrap;
+}
+
+.select-form>.select-tax-rate {
+  width: 70%;
+  height: 5vh;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin-left: 21px;
+}
+
+.quotation-post-tax-price {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  white-space: nowrap;
+  
+}
+
+.select-form>.cal-post-tax-price {
+  width: 60%;
+  height: 5vh;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin-left: 21px;
+}
+
+.quotation-remark-box {
+  display: flex;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.quotation-remark {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-right: 40px;
+}
+
+.select-form>.input-remark-box {
+  width: 300%;
+  height: 5vh;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.quotation-column-detail {
+  height: 50vh;
+  width: 80vw;
+  padding: 2vh 2vw;
+  margin: 60px auto;
+  background-color: #fff;
+  border: 3px solid #ddd;
+  border-radius: 5px;
+}
+
+.column-item-name{
+  width: 35vw;
+  height: 5vh;
+  background-color: darkcyan;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.column-quantity {
+  width: 7vw;
+  height: 5vh;
+  background-color: darkcyan;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.column-item-unit {
+  width: 7vw;
+  height: 5vh;
+  background-color: darkcyan;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.column-item-unit_price {
+  width: 10vw;
+  height: 5vh;
+  background-color: darkcyan;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.column-item-subtotal {
+  width: 15vw;
+  height: 5vh;
+  background-color: darkcyan;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.input-item-name{
+  width: 35vw;
+  height: 5vh;
+  border: solid 1px darkgray;
+  border-radius: 5px;
+}
+
+.input-quantity {
+  width: 7vw;
+  height: 5vh;
+  border: solid 1px darkgray;
+  border-radius: 5px;
+}
+
+.input-item-unit {
+  width: 7vw;
+  height: 5vh;
+  border: solid 1px darkgray;
+  border-radius: 5px;
+}
+
+.input-item-unit_price {
+  width: 10vw;
+  height: 5vh;
+  border: solid 1px darkgray;
+  border-radius: 5px;
+}
+
+.calc-item-subtotal {
+  width: 15vw;
+  height: 5vh;
+  border: solid 1px darkgray;
+  border-radius: 5px;
+}
