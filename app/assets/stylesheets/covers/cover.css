@@ -1,0 +1,258 @@
+.quotation-cover {
+  height: 110vh;
+  width: 95vw;
+  margin: 20px auto;
+  background-color: #fff;
+  border: 3px solid #ddd;
+}
+
+.cover-top {
+  height: 20vh;
+  width: 95vw;
+  display: flex;
+}
+
+.cover-top-name {
+  height: 20vh;
+  width: 70vw;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 50px 0 0 300px; 
+}
+
+.cover-top-right {
+  height: 20vh;
+  width: 25vw;
+}
+
+.quotation-id {
+  padding-top: 5vh; 
+}
+
+.quotation-filing-date {
+  padding-top: 9vh;
+}
+
+
+.cover-center {
+  height: 37vh;
+  width: 95vw;
+  margin-top: 10vh; 
+}
+
+.cover-center-costomer {
+  height: 10vh;
+  width: 95vw;
+  display: flex;
+  margin-bottom: 1vh;
+}
+
+.cover-customer-name {
+  width: 48vw;
+  border-bottom: 3px solid #ddd; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 250%;
+  font-weight: bold;
+}
+
+.customer-messrs {
+  width: 7vw;
+  font-size: 200%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.cover-center-price {
+  height: 10vh;
+  width: 95vw;
+  display: flex;
+}
+
+.kingaku {
+  width: 17vw;
+  border-bottom: 3px solid #ddd;
+  font-size: 200%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover-center-subtotal {
+  width: 30vw;
+  border-bottom: 3px solid #ddd;
+  font-size: 200%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover-legal-benefits {
+  height: 5vh;
+  width: 47vw;
+  padding: 0 0 0 37vw;
+}
+
+.cover-inportant {
+  padding: 0 0 0 5vw;
+}
+
+.cover-bottom {
+  display: flex;
+}
+
+.quotation-column-table {
+  height: 30vh;
+  width: 50vw;
+}
+
+.cover-column {
+  width: 20%;
+  border-bottom: 1px solid #dedede;
+  font-size: 14px;
+  text-align: center;
+}
+
+.cover-value {
+  width: 80%;
+  padding: 20px;
+  border-bottom: 1px solid #dedede;
+  font-size: 14px;
+}
+
+.cover-my-company {
+  height: 35vh;
+  width: 47vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 250%;
+}
+
+.cover-detail {
+  display: flex;
+}
+
+.cover-detail-top {
+  height: 30vh;
+  width: 95vw;
+  font-weight: bold;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quotation-detail-table {
+  height: 30vh;
+  width: 50vw;
+}
+
+.cover-head-item-no {
+  width: 7vw;
+  height: 5vh;
+  background-color: darkcyan;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cover-head-item-name{
+  width: 35vw;
+  height: 5vh;
+  background-color: darkcyan;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cover-head-quantity {
+  width: 7vw;
+  height: 5vh;
+  background-color: darkcyan;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cover-head-item-unit {
+  width: 7vw;
+  height: 5vh;
+  background-color: darkcyan;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cover-head-item-unit_price {
+  width: 10vw;
+  height: 5vh;
+  background-color: darkcyan;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cover-head-item-subtotal {
+  width: 15vw;
+  height: 5vh;
+  background-color: darkcyan;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cover-head-item-remarks {
+  width: 15vw;
+  height: 5vh;
+  background-color: darkcyan;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cover-item-no {
+  width: 7vw;
+  height: 5vh;
+  border: solid 1px darkgray;
+}
+
+.cover-item-name{
+  width: 35vw;
+  height: 5vh;
+  border: solid 1px darkgray;
+}
+
+.cover-quantity {
+  width: 7vw;
+  height: 5vh;
+  border: solid 1px darkgray;
+}
+
+.cover-item-unit {
+  width: 7vw;
+  height: 5vh;
+  border: solid 1px darkgray;
+}
+
+.cover-item-unit_price {
+  width: 10vw;
+  height: 5vh;
+  border: solid 1px darkgray;
+}
+
+.cover-item-subtotal {
+  width: 15vw;
+  height: 5vh;
+  border: solid 1px darkgray;
+
+}
+.cover-item-remarks {
+  width: 15vw;
+  height: 5vh;
+  border: solid 1px darkgray;
+}
